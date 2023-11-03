@@ -7,6 +7,15 @@
       flex-direction: column;
     }
   }
+
+  .footer_rights {
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-align: end;
+    
+  }
   
   .app__footer-cards {
     width: 60%;
@@ -65,7 +74,8 @@
   .app__footer-cards .app__footer-card:last-child:hover {
     box-shadow: 0 0 25px #f2f7fb;
   }
-  
+
+ 
   .app__footer-form {
     width: 60%;
     flex-direction: column;
@@ -93,6 +103,8 @@
         color: var(--secondary-color);
         outline: none;
       }
+
+      
   
       textarea {
         height: 170px;
@@ -128,3 +140,5 @@
       margin: 1rem 0;
     }
   }
+
+  
